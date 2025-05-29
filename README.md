@@ -1,12 +1,18 @@
-# React + Vite
+Description 
+A simple eCommerce web application that demonstrates key shopping functionalities using a fake API. Users can browse products by category, filter by price (high-to-low, low-to-high), add items to a cart, and create new products that are displayed alongside existing ones. Created products and cart data are stored in localStorage for persistence. Includes basic login and logout functionality to simulate user sessions. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🔧 Features
+📂 Product listing by categories
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔍 Price filtering (High → Low, Low → High)
 
-## Expanding the ESLint configuration
+🛒 Add to cart with persistent cart using localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+➕ Create new products dynamically
+
+🆕 View newly created products in a separate list
+
+🔐 Login and logout functionality
+
+💾 All data (cart, products) stored in localStorage
